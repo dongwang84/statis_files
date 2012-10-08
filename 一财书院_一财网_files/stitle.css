@@ -1,0 +1,282 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bgChannel01 {
+	background: #07101b url(../images/header/indexbg01.jpg) no-repeat center 35px;
+	margin:0 auto;
+	height:109px;
+}
+.indexLogo01 {
+	width:980px;
+	margin:0 auto;
+}
+.indexLogo01 .logo01 {
+	float:left;
+	padding-right:3px;
+	margin-top:1px;
+}
+.title {
+	float:left;
+	width:424px;
+}
+.title h1 {
+	font-size:26px;
+	font-family:"微软雅黑", "黑体", Arial;
+	padding-top:16px;
+	color:#FFF;
+	padding-left:26px;
+	font-weight:normal;
+}
+.wind {
+	float:left;
+	text-align:right;
+	width:277px;
+}
+.wind li {
+	display:inline;
+	color:#516c7c;
+	height:72px;
+	line-height:72px;
+	padding-left:2px;
+	padding-right:2px;
+}
+.button {
+	float:left;
+}
+.button img {
+	float:left;
+	margin-top:20px;
+	padding-left:6px;
+}
+
+.introduce {
+}
+.introduce {
+	float:left;
+	width:357px;
+	padding-top:20px;
+}
+.neirong {
+	float:left;
+	width:500px;
+	padding-left:30px;
+}
+
+.main2 {
+	clear:both;
+	padding-left:15px;
+}
+#tabs1 {
+	margin:0 auto;
+	width:970px;
+	background:url(../images/tview_01.jpg) repeat-x;
+	background-position:0px 11px;
+}
+.menu1 {
+	width: 870px;
+}
+.menu1 li {
+	display:block;
+	float: left;
+	width:114px;
+	height:46px;
+	border-right:#dcdcdc 1px solid;
+	cursor:pointer;
+	line-height:46px;
+	font-size:14px;
+	text-align:center;
+	font-family:"微软雅黑", "黑体", Arial;
+}
+.menu1 li.hover {
+	background:url(../images/tview_14.gif) no-repeat;
+	margin-top:2px;
+	border-bottom:#fff 1px solid;
+}
+#main1 {
+	padding-bottom:5px;
+}
+#main1 ul {
+	width:890px;
+	display: none;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+#main1 ul.block {
+	display: block;
+}
+.main2 h1 {
+	font-size:26px;
+	font-family:"微软雅黑", "黑体", Arial;
+	font-weight:normal;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+.main2 p {
+	line-height:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#7f7e7e;
+}
+.aboutone {
+	background:#efefef;
+	float:left;
+}
+.aboutonemar {
+	margin-top:20px;
+}
+.aboutone h2 {
+	font-size:22px;
+	font-family:"微软雅黑", "黑体", Arial;
+	font-weight:normal;
+	padding-top:20px;
+}
+.aboutimg {
+	float:right;
+}
+.aboutonebox {
+	border-top:#dcdcdc 1px dashed;
+	float:left;
+}
+.div1of2 {
+	background:#efefef;
+	width:157px;
+	text-align:center;
+	float:left;
+	padding-top:10px;
+}
+.div2of2 {
+	width:720px;
+	background:#fff;
+	float:left;
+	padding-left:13px;
+	padding-bottom:15px;
+}
+.aboutpic {
+	text-align:center;
+	margin-top:20px;
+}
+.aboutpic img {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.ppjm {
+	padding-bottom:10px;
+}
+.ppjmtop {
+	width:971px;
+	height:28px;
+	background:url(../images/ppjm_04.jpg) no-repeat left top;
+}
+.ppjmtop h1 {
+	font-size:12px;
+	color:#000;
+	height:28px;
+	line-height:28px;
+	padding-left:20px;
+	font-weight:normal;
+}
+.ppjmmid {
+	width:931px;
+	background:url(../images/ppjm_11.jpg) repeat-y left top;
+	padding:20px;
+}
+.zcr02 li {
+	text-align:center;
+	float:left;
+	width:103px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+.zcr02 li p {
+	line-height:28px;
+	height:28px;
+}
+.ppjmbot {
+	width:971px;
+	height:8px;
+	background:url(../images/ppjm_13.jpg) no-repeat left top;
+}
+.ycds01 {
+	padding-left:20px;
+}
+.ycds01 ul li {
+	float:left;
+	text-align:left;
+	width:126px;
+	font-size:14px;
+	height:28px;
+	line-height:28px;
+	color:#000;
+}
+.ycds01 img {
+	padding-top:8px;
+	padding-left:2px;
+}
+/*数字化阅读 on 9/20 by lyy*/
+.digitalreading {
+	padding:20px;
+}
+.digitalreading li {
+	float:left;
+}
+.digitalli10f2 {
+}
+.digitalli20f2 {
+	width:570px;
+}
+.digitalli20f2 img {
+	float:right;
+	margin-top:20px;
+}
+.digitalli20f2 h1 {
+	font-size:26px;
+	font-family:"微软雅黑", "黑体", Arial;
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left:10px;
+}
+.cjrb li, .xmt li {
+	width:255px;
+	background:url(../images/digitalreading_20.jpg) no-repeat left top;
+	background-position:10px 10px;
+	padding-left:26px;
+	line-height:26px;
+	color:#666666;
+}
+.xmt li {
+	width:520px;
+}
+.cjrb li span {
+	font-size:18px;
+	color:#F00;
+	font-family:"微软雅黑", "黑体", Arial;
+}
+ 
+ #container {padding-top:10px;}
+
+ body{font-family: "微软雅黑","黑体",Arial;}
+ 
+ a.MaoZhu {
+color: black;
+text-decoration: none;
+border-bottom: 1px dotted #2A619A;
+background: #D8E9F4;
+}
+
+.qikan {
+	background:url(../images/digitalreading_20.jpg) no-repeat left top;
+	background-position:10px 20px;
+	padding-left:26px;
+	line-height:26px;
+	color:#666666;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.qikan span {
+	font-size:18px;
+	color:#F00;
+	font-family:"微软雅黑", "黑体", Arial;
+	margin-right:20px;
+	margin-left:20px;
+}

@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-size:12px;margin:0;padding:0; background:#f3f3f3;font-family:"Lucida Grande",Helvetica,Arial,Verdana,sans-serif;word-wrap: break-word;word-break: break-all;}
+a{color:#000; text-decoration:none;}
+a:hover {color:#cc0000; text-decoration:underline;}
+div,ul,ol,p,dl{margin:0;padding:0;}
+ul,ol,dl{height:100%;overflow:hidden;}
+li{list-style:none;}
+img {border:none; vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font:12px "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;margin:0;padding:0;}
+input,select {font:12px Arial, Helvetica, sans-serif;}
+.clear{ clear:both;height:0px;_height:auto;}
+
+.bg{ background:url(../images/bg2012.jpg) repeat-x top #142e40; width:1500px; margin:0 auto;}
+.bgIndex{ background:url(../images/indexbg.jpg) no-repeat center 37px #060f19;  margin:0 auto;  margin-bottom:1px;}
+.bgChannel{ background:url(../images/indexbg.jpg) no-repeat center 37px;  margin:0 auto;  margin-bottom:1px; height:210px; }
+.bgChannelOut{ background:url(../images/channelbg.jpg) repeat-x; height:210px;}
+
+.white{ color: #FFF; font-weight: normal;}
+a.white:link,a.white:visited{ color: #FFF;text-decoration: none;}
+a.white:hover{ text-decoration: underline; color: #FFF;}
+
+.black{ color: #000; font-weight: normal;}
+a.black:link,a.black:visited{ color: #000;text-decoration: none;}
+a.black:hover{ text-decoration: underline; color: #000;}
+
+.orange{ color: #de7902; font-weight: normal;}
+a.orange:link,a.orange:visited{ color: #de7902;text-decoration: none;}
+a.orange:hover{ text-decoration: underline; color: #de7902;}
+
+.white12{ color: #FFF; font-weight: normal; font-size:12px;}
+a.white12:link,a.white12:visited{ color: #FFF;text-decoration: none;}
+a.white12:hover{ text-decoration: underline; color: #FFF;}
+
+.orange12{ color: #de7902; font-weight: normal; font-size:12px;}
+a.orange12:link,a.orange12:visited{ color: #de7902;text-decoration: none;}
+a.orange12:hover{ text-decoration: underline; color: #de7902;}
+
+.red{ color: #fc0404; font-weight: normal;}
+a.red:link,a.red:visited{ color: #fc0404;text-decoration: none;}
+a.red:hover{ text-decoration: underline; color: #fc0404;}
+
+.red02{ color: #9c3925; font-weight: normal; font-size:18px;}
+a.red02:link,a.red02:visited{ color: #9c3925;text-decoration: none;}
+a.red02:hover{ text-decoration: underline; color: #9c3925;}
+
+.red03{ color: #9c3925; font-weight: normal;}
+a.red03:link,a.red03:visited{ color: #9c3925;text-decoration: none;}
+a.red03:hover{ text-decoration: underline; color: #9c3925;}
+
+.green{ color: #79c275; font-weight: normal;}
+a.green:link,a.green:visited{ color: #79c275;text-decoration: none;}
+a.green:hover{ text-decoration: underline; color: #79c275;}
+
+.green02{ color: #139009; font-weight: normal;}
+a.green02:link,a.green02:visited{ color: #139009;text-decoration: none;}
+a.green02:hover{ text-decoration: underline; color: #139009;}
+
+.blue01{ color: #bfdbec; font-weight: normal;}
+a.blue01:link,a.blue01:visited{ color: #bfdbec;text-decoration: none;}
+a.blue01:hover{ text-decoration: underline; color: #bfdbec;}
+
+.blue02{ color: #2a619a; font-weight: normal;}
+a.blue02:link,a.blue02:visited{ color: #2a619a;text-decoration: none;}
+a.blue02:hover{ text-decoration: underline; color: #2a619a;}
+
+.blue03{ color: #000; font-weight: normal; font-size:18px;}
+a.blue03:link,a.blue03:visited{ color: #000;text-decoration: none;}
+a.blue03:hover{ text-decoration: underline; color: #000;}
+
+.blue04{ color: #000; font-weight: normal;}
+a.blue04:link,a.blue04:visited{ color: #000;text-decoration: none;}
+a.blue04:hover{ text-decoration: underline; color: #000;}
+.blue05{ color: #28598f; font-weight: normal;}
+a.blue05:link,a.blue05:visited{ color: #28598f;text-decoration: none;}
+a.blue05:hover{ text-decoration: underline; color: #28598f;}
+
+.orange{ color: #de7902; font-weight: normal;}
+a.orange:link,a.orange:visited{ color: #de7902;text-decoration: none;}
+a.orange:hover{ text-decoration: underline; color: #de7902;}
+
+
+.gray{ color: #666; font-weight: normal;}
+a.gray:link,a.gray:visited{ color: #666;text-decoration: none;}
+a.gray:hover{ text-decoration: underline; color: #666;}
+
+
+.black05{ color: #000; font-weight: normal; font-size:20px;}
+a.black05:link,a.black05:visited{ color: #000;text-decoration: none;}
+a.black05:hover{ text-decoration: underline; color: #000;}
+
+
+/*Start:搜索input*/
+#search {
+    width:210px;
+    padding:2px 0 0 0px;
+    *margin-top:3px;
+    _margin-top:5px;
+    background-color:#BCD9E9; 
+    color:#666;
+}
+.ac_results {
+    padding: 0px;
+    border: 1px solid WindowFrame;
+    border-top: none;
+    margin-top: 1px;
+    background-color: rgb(188, 217, 233); /* 控制提醒框的背景颜色 */
+    overflow: hidden;
+    text-align: left;
+    z-index: 9999;
+}
+
+.ac_results ul {
+    width: 100%;
+    list-style-position: outside;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ac_results iframe {
+    display:none;/*sorry for IE5*/
+    display/**/:block;/*sorry for IE5*/
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+    filter:mask();
+    width:3000px;
+    height:3000px;
+}
+
+.ac_results li {
+    margin: 0px;
+    padding: 2px 5px;
+    cursor: pointer;
+    display: block;
+    width: auto;
+    font: menu;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.ac_loading {
+    background : Window url('../images/indicator.gif') right center no-repeat;
+}
+
+.ac_over {
+    background-color: Highlight;
+    color: HighlightText;
+}
+/*IE6搜索提示框问题fix方法*/
+.ac_results{border:1px solid #398eb7;background-color:#E2EEF4;overflow:hidden;text-align:left;padding:0;margin-left:-6px;}
+.ac_results ul{width:100%;list-style-position:outside;list-style:none;margin:0;padding:0;overflow:hidden!important;}
+.ac_results iframe{display:block;position:absolute;top:0;left:0;z-index:-1;filter:mask();width:3000px;height:3000px}
+.ac_results li{color:#5A5A5A;cursor:pointer;display:block;width:auto;font:menu;line-height:20px;font-size:12px;overflow:hidden;margin:0;padding:2px 5px}
+/*搜索*/
+#rmsg.block
+{
+    border-style: solid;
+    border-width: 2px 1px 1px 1px;
+    border-color: #81B4CF;
+    background-color: #E8F3F8;
+    width: 250px;
+    position: absolute;
+    font-size: 12px;
+    text-align: left;
+    z-index: 999;
+}
+#rmsg.block .t1{font-size: 12px;color: #59595B; font-family:宋体; float: left; width: 50px; text-align: center; height: 20px; line-height: 20px; background-color: #BBD7E5;}
+#rmsg.block .t2{font-size: 12px;color: #59595B; font-family:宋体; float: left; width: 100px; text-align: center; height: 20px; line-height: 20px; background-color: #BBD7E5;}
+#rmsg.block ul{margin: 0px; padding: 0px;}
+#rmsg.block li
+{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #BBD7E5;
+    cursor: pointer;
+    padding: 3px 0px 3px 0px;
+	line-height:15px;
+    height: 15px;
+    width: 100%;
+    display: block;
+    background-color: #E8F3F8;
+    overflow: hidden;
+    color: #7C7C7C;
+    font-family:宋体; 
+}
+#rmsg.block li a{color: #555;font-weight:normal;letter-spacing:0px}
+#rmsg.block .searchTd1{float:left;width:50px; text-align:center;}
+#rmsg.block .searchTd2{float:left;width:100px; text-align:center;color:#0B537B;}
+#rmsg #over{background-color: #BBBBBB; color: #666; height: 15px; width: 100%; display: block;}
+#rmsg.blockMsg{ background-color: white; border: 1px solid #000; width: 350px; height: 400px;}
+#rmsg.blockMsg ul{ margin: 0px;}
+#rmsg.blockMsg li{ padding: 3px 0px 3px 5px; height: 15px; width: 100%; display: block; background-color: White; overflow: hidden;}
+#rmsg .clear{ clear: both; line-height:0px; height:0px; font-size:0px; visibility:hidden;}
+#rmsg .red {color: #FC0404;font-weight: normal;}
+
+/*视频部分老css*/
+.f12blue2b{ color: #0C517A; font-size: 12px; font-weight: bold;}
+.f12blue2b a:link, .f12blue2b a:visited {color: #0C517A;}
+a.f12blue2b:link,a.f12blue2b:visited{ color: #0C517A; text-decoration: none;}
+.sidebarTitleLeft {float:left; padding-left:14px; background:url(../images/icon_arrow2.gif) left no-repeat;}
